@@ -1,5 +1,5 @@
 # echo-k8s-app
-Kubernetes Argo CD echo application. Select ArgOCD Community Operator for installation
+Kubernetes Argo CD echo application. Select ArgOCD Community Operator for installation from operatorHub
 
 
 https://operatorhub.io/operator/argocd-operator
