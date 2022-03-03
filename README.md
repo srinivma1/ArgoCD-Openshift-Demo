@@ -15,6 +15,6 @@ Create a new Application from UI:
 3. In the Source section, select this git repo and path as kubernetes
 4. Select destination as https://kubernetes.default.svc and namespace as target namesapce where the application can be dpeployed,
 5. Once the application is deployed, make some changes by changing the replica to 2 counts and watch the pod scale upto 2 instances.
-6. 
+
 
 
