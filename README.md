@@ -4,6 +4,15 @@ Kubernetes Argo CD echo application. Select ArgOCD Community Operator for instal
 
 https://operatorhub.io/operator/argocd-operator
 
+On kubernetes, you can install using follwing command:
+
+```
+kubectl create namespace argocd
+
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+```
+
 To get the login password:
 
 $ kubectl get secret argocd-cluster -n argocd -ojsonpath='{.data.admin\.password}' | base64 --decode
